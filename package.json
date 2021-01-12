@@ -1,0 +1,23 @@
+{
+  "name": "nrsrphu.github.io",
+  "version": "1.0.0",
+  "description": "New Rebel System Roleplay Website",
+  "author": "Gergo Olah <gergoolahphotography@gmail.com>",
+  "license": "WTFPL",
+  "private": false,
+  "repository": "git@github.com:nrsrphu/nrsrphu.github.io.git",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir build/debug",
+    "build": "parcel build src/index.html --out-dir build/release --public-url ./"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.51",
+    "@types/react-dom": "^16.9.8",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
